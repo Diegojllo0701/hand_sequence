@@ -1,0 +1,2 @@
+/home/vscode/superbuild/install/relwithdebinfo/lib/mc_controller/etc/HandSequenceController.yaml
+/home/vscode/superbuild/install/relwithdebinfo/lib/mc_controller/HandSequenceController.so

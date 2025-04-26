@@ -1,0 +1,22 @@
+# Hand targets configuration
+left_target:
+  rotation: [0.7, 0.0, 0.7, 0.0]  # w,x,y,z
+  translation: [0.5, 0.25, 1.1]    # x,y,z
+
+right_target:
+  rotation: [0.7, 0.0, 0.7, 0.0]   # w,x,y,z
+  translation: [0.5, -0.25, 1.1]   # x,y,z
+
+# Movement duration in seconds
+duration: 2.0
+
+# Contact parameters
+contacts:
+  - r1: jvrc1
+    r1Surface: LeftFoot
+    r2: ground
+    r2Surface: AllGround
+  - r1: jvrc1
+    r1Surface: RightFoot
+    r2: ground
+    r2Surface: AllGround
